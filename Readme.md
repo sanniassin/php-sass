@@ -76,5 +76,5 @@ Here is the options you can have for sass compiler:
 
 Math Functions:
 
-	pow($i, $n) // The same pow function as math.h
+	math-pow($i, $n) // The same pow function as math.h
 
