@@ -380,7 +380,7 @@ void sass_set_options(struct Sass_Options* pso_options, zval* pzv_options) {
 	// create list of all custom functions
 	int i = 0;
 	Sass_Function_List fn_list = sass_make_function_list(1);
-	SASS_FUNCTION(call_fn_pow, "pow($i, $n)");
+	SASS_FUNCTION(call_fn_math_pow, "math-pow($i, $n)");
 	sass_option_set_c_functions(pso_options, fn_list);
 }
 
